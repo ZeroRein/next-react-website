@@ -1,9 +1,10 @@
 import Hero from 'components/hero'
 
-export default function Blog() {
+export default function About() {
     return (
-    
-    <Hero />
-    
+        <Hero 
+        title="About"
+        subtitle="About development activities"
+        />
     )
 }
