@@ -18,5 +18,5 @@
 
 .stack ul {
     padding: revert;
-    line-style: revert;
+    list-style: revert;
 }
