@@ -14,12 +14,12 @@ export default function Pagination({
             {prevText && prevUrl && (
                 <li className={styles.prev}>
                     <Link href={prevUrl}>
-                        <legal>
-                        <a className={styles.iconText}>
+                        <>
+                        <legal className={styles.iconText}>
                             <FontAwesomeIcon icon={faChevronLeft} color="var(--gray-25)" />
                             <span>{prevText}</span>
-                        </a>
                         </legal>
+                        </>
                     </Link>
                 </li>
             )}
@@ -27,10 +27,10 @@ export default function Pagination({
                 <li className={styles.next}>
                     <Link href={nextUrl}>
                         <>
-                        <a  className={styles.iconText}>
+                        <legal  className={styles.iconText}>
                             <span>{nextText}</span>
                             <FontAwesomeIcon icon={faChevronRight} color="var(--gray-25)" />
-                        </a>
+                        </legal>
                         </>
                     </Link>
                 </li>

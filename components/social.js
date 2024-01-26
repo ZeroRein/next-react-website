@@ -6,6 +6,7 @@ import {
     faFacebook,
     faGithub,
 } from '@fortawesome/free-brands-svg-icons'
+import Link from 'next/link'
 
 export default function Social({ iconSize = 'intial'}) {
     return (
