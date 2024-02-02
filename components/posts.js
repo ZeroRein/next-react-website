@@ -8,7 +8,7 @@ export default function Posts({ posts }) {
             {posts.map(({ title, slug, eyecatch }) => (
                 <article className={styles.post} key={slug}>
                     <Link href={`/blog/${slug}`}>
-                        <>
+                        
 
                         <>
                         <figure>
@@ -24,7 +24,7 @@ export default function Posts({ posts }) {
                         </figure>
                         <h2>{title}</h2>
                         </>
-                        </>
+                        
 
                     </Link>
                 </article>

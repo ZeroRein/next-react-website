@@ -28,11 +28,11 @@ export default function Post({
     return (
     <Container>
         <Meta
-        pageTitle={title}
-        pageDesc={description}
-        pageImg={eyecatch.url}
-        pageImgW={eyecatch.width}
-        pageImgH={eyecatch.height}
+            pageTitle={title}
+            pageDesc={description}
+            pageImg={eyecatch.url}
+            pageImgW={eyecatch.width}
+            pageImgH={eyecatch.height}
         />
 
         <article>
